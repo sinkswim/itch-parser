@@ -7,11 +7,12 @@ Run with:
 
 `python itch-parser.py 2`
 
-where you can specify how many messages you want to parse from the start of file - 2 in the example.
+where you can specify how many messages you want to parse from the start of file (2 in the above example).
 
 Example output:
 
-`Message Details:
+```
+Message Details:
 
 Message 1:
 Type: S
@@ -48,4 +49,4 @@ Parsing Performance:
 Messages processed: 2
 Total time: 47.000µs
 Average time per message: 23.500µs
-`
+```
