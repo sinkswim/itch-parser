@@ -7,12 +7,6 @@ Run with:
 
 `python itch-parser.py 2`
 
-<<<<<<< HEAD
-where you can specify how many messages you want to parse from the start of file (2 in the above example).
-=======
-where you can specify how many messages you want to parse from the start of file (2 in the example).
->>>>>>> d1f611d (Added C parser)
-
 Example output:
 
 ```
@@ -53,14 +47,13 @@ Parsing Performance:
 Messages processed: 2
 Total time: 47.000µs
 Average time per message: 23.500µs
-<<<<<<< HEAD
 ```
-=======
-`
+
 
 ## C parser
 
-Tested on MacOS, to run on other OS modify the big endian to host representation functions. On Linux, you can simply call `be16toh`, `be32toh`, `be64toh` in `endian.h`.
+Tested on MacOS, to run on other OS modify the big endian to host representation functions. 
+On Linux, you can simply call `be16toh`, `be32toh`, `be64toh` from `endian.h`.
 
 This solution, which is still quite far from optimal, uses lib2xml. On MacOS, you can install it with `brew install libxml2`.
 
@@ -75,4 +68,3 @@ Running:
 where you can specify how many messages you want to parse from the start of file (2 in the example).
 
 Output is similar to Python parser.
->>>>>>> d1f611d (Added C parser)
